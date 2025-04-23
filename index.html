@@ -16,7 +16,10 @@
 
   <!-- Header -->
   <header>
-    <h1><span>Kite</span> Solutions</h1>
+    <span class="logo-container">
+      <img src="/images/logo.png" alt="" class="logo">
+      <h1><span>Kite</span> Solutions</h1>
+  </span>
     <button class="hamburger" id="hamburger">
       <div class="bar"></div>
       <div class="bar"></div>
@@ -24,10 +27,9 @@
     </button>
     <nav id="mainNav">
       <a href="/index.html">Home</a>
-      <a href="#services">Services</a>
-      <a href="#industries">Industries</a>
-      <a href="#process">Process</a>
-      <a href="#demo">Demo</a>
+      <a href="#services">Services</a>      
+      <a href="/blog.html">Blog</a>
+      <a href="/team.html">Team</a>
       <a href="#contact">Contact</a>
       <button class="theme-toggle" id="themeToggle">
         <i class="fas fa-moon"></i>
@@ -64,139 +66,23 @@
       </div>
       <div class="service-card">
         <i class="fas fa-brain"></i>
-        <h3>AI Solutions</h3>
-        <p>Smart assistants and predictive analytics for your business.</p>
+        <h3>AI  Consulting</h3>
+        <p>Harness the power of AI to optimize processes and make data-driven decisions.</p>
       </div>
+
     </div>
   </section>
 
-  <!-- Industries Section -->
-  <section id="industries">
-    <h2 class="section-title">Industries We Serve</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <i class="fas fa-shopping-cart"></i>
-        <h3>E-commerce</h3>
-        <p>Automate order processing, inventory management, and customer service workflows.</p>
-      </div>
-      <div class="service-card">
-        <i class="fas fa-home"></i>
-        <h3>Real Estate</h3>
-        <p>Property management automation, lead tracking, and document processing.</p>
-      </div>
-      <div class="service-card">
-        <i class="fas fa-store"></i>
-        <h3>Small Businesses</h3>
-        <p>Affordable automation solutions for inventory, accounting, and customer management.</p>
-      </div>
-    </div>
+  <!--Our Clients-->
+  <section id="clients"> 
+    <h2 class="section-title">Our Clients</h2>
+    <p class="section-description">The following clients have entrusted with their business needs</p>
+    <div class="clients-grid">
+      <img src="/images/saka-hao.jpeg" alt=" saka-hao" class="logo">
+      <img src="/images/cie.png" alt="cie" class="logo">    
+      <img src="/images/soko-kuu.svg" alt="cie" class="logo">       
+      
   </section>
-
-  <!-- Process Section -->
-  <section id="process">
-    <h2 class="section-title">Our Process</h2>
-    <div class="process-steps">
-      <div class="step">
-        <div class="step-number">1</div>
-        <h4>Discovery</h4>
-        <p>We analyze your workflows to identify opportunities</p>
-      </div>
-      <div class="step">
-        <div class="step-number">2</div>
-        <h4>Design</h4>
-        <p>Create a customized automation blueprint</p>
-      </div>
-      <div class="step">
-        <div class="step-number">3</div>
-        <h4>Development</h4>
-        <p>Build and test your automation solutions</p>
-      </div>
-      <div class="step">
-        <div class="step-number">4</div>
-        <h4>Deployment</h4>
-        <p>Implement and train your team</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Case Studies Section -->
-  <section id="cases">
-    <h2 class="section-title">Success Stories</h2>
-    <div class="case-studies">
-      <div class="case-card">
-        <img
-          src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-          alt="Social Media Lead Generation">
-        <div class="case-content">
-          <h3>Social Media Lead Generation</h3>
-          <p>Increased qualified leads by 200% through AI-powered campaigns</p>
-          <a href="/case-studies/social-media" class="btn btn-secondary">Read Case Study</a>
-        </div>
-      </div>
-      <div class="case-card">
-        <img
-          src="https://images.unsplash.com/photo-1523275335684-37898b6baf0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1999&q=80"
-          alt="E-commerce Solution">
-        <div class="case-content">
-          <h3>E-commerce Solution</h3>
-          <p>Increased online sales by 150% through automation</p>
-          <a href="/case-studies/ecommerce" class="btn btn-secondary">Read Case Study</a>
-        </div>
-      </div>
-      <div class="case-card">
-        <img
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-          alt="Real Estate Automation">
-        <div class="case-content">
-          <h3>Real Estate Automation</h3>
-          <p>Streamlined property management for 200+ agents</p>
-          <a href="/case-studies/real-estate" class="btn btn-secondary">Read Case Study</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-  <!-- Testimonials Section -->
-  <section id="testimonials">
-    <h2 class="section-title">What Our Clients Say</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial-card">
-        <p>"Kite Solutions transformed our order processing system, reducing manual work by 80% and eliminating errors.
-          Their team understood our needs perfectly."</p>
-        <div class="testimonial-author">          
-          <div class="author-info">
-            <h4>Sarah Johnson</h4>
-            <p>CEO, Retail Solutions</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p>"The custom CRM they built has been a game-changer for our sales team. It integrates seamlessly with all our
-          existing tools and provides incredible insights."</p>
-        <div class="testimonial-author">        
-          <div class="author-info">
-            <h4>Michael Chen</h4>
-            <p>Sales Director, TechForward</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p>"Their AI-powered document processing system saved us hundreds of hours in manual data entry. The accuracy
-          and speed are remarkable."</p>
-        <div class="testimonial-author">         
-          <div class="author-info">
-            <h4>David Martinez</h4>
-            <p>Operations Manager, LegalDocs</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Contact Section -->
   <section id="contact">
     <h2 class="section-title">Get In Touch</h2>
@@ -238,22 +124,21 @@
       <div class="footer-column">
         <h3>Company</h3>
         <ul>
-          <li><a href="#process"><i class="fas fa-chevron-right"></i> Our Process</a></li>
-          <li><a href="#cases"><i class="fas fa-chevron-right"></i> Case Studies</a></li>
-          <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+          <li><a href="/blog.html"><i class="fas fa-chevron-right"></i>Blog</a></li>
+          <li><a href="/team.html"><i class="fas fa-chevron-right"></i> Team</a></li>         
         </ul>
       </div>
       <div class="footer-column">
         <h3>Contact</h3>
         <ul>
-          <li><a href="tel:+15551234567"><i class="fas fa-phone"></i> +254 713 801 284</a></li>
+          <li><a href="tel:+254713801284"><i class="fas fa-phone"></i> +254 713 801 284</a></li>
           <li><a href="mailto:info@kitesolutions.com"><i class="fas fa-envelope"></i> info@kitesolutions.co.ke</a></li>
           <li><a href="#"><i class="fas fa-map-marker-alt"></i>Nyeri, Kenya</a></li>
         </ul>
       </div>
     </div>
     <div class="copyright">
-      <p>&copy; 2025 Kite Solutions. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of
+      <p>&copy; 2025 Kite Solutions. All rights reserved. <a href="/privacy.html">Privacy Policy</a> | <a href="#">Terms of
           Service</a></p>
     </div>
   </footer>
